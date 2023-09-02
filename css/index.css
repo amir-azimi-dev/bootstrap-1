@@ -27,3 +27,36 @@ body {
     background-color: #1b2a4e;
     color: #fff;
 }
+
+.svg-container-top,
+.svg-container-bottom {
+    height: 10rem;
+    overflow: hidden;
+}
+
+.svg-container-top {
+    transform: translateY(0.2rem);
+}
+
+.svg-container-bottom {
+    transform: translateY(-0.2rem);
+}
+
+.carousel-inner img {
+    height: 50vw;
+    object-fit: cover;
+}
+
+
+/* 
+@media all and (min-width: 567px) {
+    .carousel-inner img {
+        height: 20rem;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .carousel-inner img {
+        height: 29rem;
+    }
+} */
