@@ -10,12 +10,20 @@ body {
     font-family: "Vazir";
 }
 
-
-.service__icon {
+.icon {
     display: inline-flex;
     background-color: #ebeafb;
     color: rgb(13, 110, 253);
     font-size: 1.6rem;
     padding: 1rem;
     border-radius: 1rem;
+}
+
+.text-muted {
+    color: #6c757d !important;
+}
+
+.bg-selected {
+    background-color: #1b2a4e;
+    color: #fff;
 }
