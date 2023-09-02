@@ -1,11 +1,21 @@
 @font-face {
     font-family: "Vazir";
-    src: url("../assets/fonts/Vazir.eot") format(eot),
-    url("../assets/fonts/Vazir.ttf") format(truetype),
-    url("../assets/fonts/Vazir.woff") format(woff),
-    url("../assets/fonts/Vazir.woff2") format(woff2);
+    src: url("../assets/fonts/Vazir.eot") format("eot"),
+        url("../assets/fonts/Vazir.ttf") format("truetype"),
+        url("../assets/fonts/Vazir.woff") format("woff"),
+        url("../assets/fonts/Vazir.woff2") format("woff2");
 }
 
 body {
     font-family: "Vazir";
+}
+
+
+.service__icon {
+    display: inline-flex;
+    background-color: #ebeafb;
+    color: rgb(13, 110, 253);
+    font-size: 1.6rem;
+    padding: 1rem;
+    border-radius: 1rem;
 }
