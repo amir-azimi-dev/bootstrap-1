@@ -47,16 +47,7 @@ body {
     object-fit: cover;
 }
 
-
-/* 
-@media all and (min-width: 567px) {
-    .carousel-inner img {
-        height: 20rem;
-    }
+.contactus textarea {
+    max-height: 15rem;
+    min-height: 5rem;
 }
-
-@media all and (min-width: 768px) {
-    .carousel-inner img {
-        height: 29rem;
-    }
-} */
