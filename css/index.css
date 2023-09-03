@@ -6,8 +6,22 @@
         url("../assets/fonts/Vazir.woff2") format("woff2");
 }
 
+.text-muted {
+    color: #6c757d !important;
+}
+
+.bg-selected {
+    background-color: #1b2a4e;
+    color: #fff;
+}
+
 body {
     font-family: "Vazir";
+}
+
+.hero {
+    padding-top: 8rem;
+    padding-bottom: 3rem;
 }
 
 .icon {
@@ -17,15 +31,6 @@ body {
     font-size: 1.6rem;
     padding: 1rem;
     border-radius: 1rem;
-}
-
-.text-muted {
-    color: #6c757d !important;
-}
-
-.bg-selected {
-    background-color: #1b2a4e;
-    color: #fff;
 }
 
 .svg-container-top,
@@ -42,8 +47,18 @@ body {
     transform: translateY(-0.2rem);
 }
 
+.carousel-inner {
+    height: 50vw;
+    max-width: 150vh;
+    max-height: 75vh;
+    margin: 0 auto;
+}
+
 .carousel-inner img {
     height: 50vw;
+    max-width: 150vh;
+    max-height: 75vh;
+    margin: 0 auto;
     object-fit: cover;
 }
 
