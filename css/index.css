@@ -51,3 +51,14 @@ body {
     max-height: 15rem;
     min-height: 5rem;
 }
+
+.programming-languages svg {
+    width: 5rem;
+    height: 5rem;
+}
+
+.programming-languages__svg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
